@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('description');
             $table->string('required_credits');
-            $table->boolean('active')->default('true');
+            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }
